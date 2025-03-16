@@ -18,5 +18,6 @@ class Ship {
     isSunk() {  //function to check if the ship is sunk
         return this.hitpoints === 0;
     }
+}
 
 export default Ship;
