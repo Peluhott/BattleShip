@@ -57,7 +57,7 @@ class GameBoard {
             missedShots.push(point); // adds the point to the missed shots array
         }
         else {
-
+            // finish writing this code later
         }
     }
 }
