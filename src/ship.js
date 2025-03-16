@@ -1,13 +1,13 @@
 class Ship {
     length;   //variables for ship
-    location = [length][2];
+
     orientation;
     sunk = false;
     hitpoints = length;
 
     constructor(length, location, orientation) {  //constructor for ship
         this.length = length;
-        this.location = location;
+
         this.orientation = orientation;
     }
 
